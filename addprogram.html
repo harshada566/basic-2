@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>absolute position</title>
+    <style>
+      .container {
+        margin-top: 50px;
+        background-color: hotpink;
+        height: 600px;
+        position: relative;
+      }
+
+      .first, .second, .third 
+      .container div {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+      }
+      .first {
+        background-color: red;
+        z-index: 199999;
+      }
+      .second {
+        background-color: green;
+        left: 50px;
+        top: 50px;
+        z-index: 2;
+      }
+      .third {
+        background-color:cyan;
+        left: 200px;
+        top: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first"></div>
+      <div class="second"></div>
+      <div class="third"></div>
+      <p>harshu</p>
+      
+    </div>
+  </body>
+</html>
